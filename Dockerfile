@@ -1,5 +1,5 @@
 FROM hashicorp/vault:1.13.5
-ARG KUBECTL_VERSION=v1.26.7
+ARG KUBECTL_VERSION=v1.27.4
 
 # Install dependencies
 RUN apk add --no-cache jq yq wget \
